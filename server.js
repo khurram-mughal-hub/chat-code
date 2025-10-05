@@ -22,7 +22,7 @@ app.use(express.static(path.join(__dirname), {
 }));
 
 // Connect MongoDB
-mongoose.connect("mongodb+srv://pgcdhaofficial:TJZxAPIpLBwzfs4e@pgcdha.qbzia76.mongodb.net/secretchat", {
+mongoose.connect("mongodb+srv://khurrama_mughal_db:APH-3283s@cluster1.q3mxfuh.mongodb.net/secretchat", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
